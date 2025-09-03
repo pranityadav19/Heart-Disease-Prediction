@@ -77,5 +77,3 @@ The dataset was **pre-cleaned** (duplicates removed, no missing values) and addi
 - **Tools**: Jupyter Notebook  
 
 ---
-
-## 📂 Repo Structure
