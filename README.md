@@ -6,7 +6,7 @@ This project explores how machine learning can be used to **predict the likeliho
 
 ## 📌 Project Overview
 - **Goal**: Classify whether a patient has heart disease (1) or not (0).  
-- **Why it matters**: Heart disease is the leading cause of death worldwide, responsible for ~18M deaths annually (WHO, 2024). Accurate early prediction can empower preventive healthcare, reduce hospitalizations, and lower costs:contentReference[oaicite:1]{index=1}.  
+- **Why it matters**: Heart disease is the leading cause of death worldwide, responsible for ~18M deaths annually (WHO, 2024). Accurate early prediction can empower preventive healthcare, reduce hospitalizations, and lower costs 
 - **Approach**: Clean and merge datasets, engineer meaningful clinical features, build machine learning models, and evaluate them using accuracy, precision, recall, and AUC.  
 
 ---
@@ -17,7 +17,7 @@ This project explores how machine learning can be used to **predict the likeliho
 - **Variables**:
   - Demographics: Age, Sex  
   - Clinical: ChestPainType, RestingBP, Cholesterol, FastingBS, RestingECG, MaxHR, ExerciseAngina, Oldpeak, ST_Slope  
-  - **Target**: `HeartDisease` (1 = disease present, 0 = normal):contentReference[oaicite:2]{index=2}  
+  - **Target**: `HeartDisease` (1 = disease present, 0 = normal) 
 
 The dataset was **pre-cleaned** (duplicates removed, no missing values) and additional **feature engineering** was applied (e.g., converting cholesterol and age into clinical flags).  
 
@@ -52,7 +52,7 @@ The dataset was **pre-cleaned** (duplicates removed, no missing values) and addi
 | Gradient Boosting     | 87%      | 88.0%     | 88.0%  | 0.92 |
 | Ensemble (Voting)     | 90.2%    | 90.0%     | 90.0%  | 0.935 |
 
-➡️ **Logistic Regression outperformed the others**, achieving nearly **93% accuracy** with high recall, which is crucial for identifying patients at risk:contentReference[oaicite:3]{index=3}.  
+➡️ **Logistic Regression outperformed the others**, achieving nearly **93% accuracy** with high recall, which is crucial for identifying patients at risk.
 
 ---
 
@@ -67,7 +67,7 @@ The dataset was **pre-cleaned** (duplicates removed, no missing values) and addi
 - Cost-sensitive learning to address false negatives.  
 - Hyperparameter tuning for stronger model optimization.  
 - External validation with new datasets.  
-- Deployment as a **real-time continuous learning pipeline**:contentReference[oaicite:4]{index=4}.  
+- Deployment as a **real-time continuous learning pipeline**.
 
 ---
 
